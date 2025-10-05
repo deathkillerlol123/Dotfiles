@@ -1,0 +1,15 @@
+2025/10/05-00:01:17.440 17de Reusing MANIFEST /home/archboom/.config/whatsdesk/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/10/05-00:01:17.440 17de Recovering log #358
+2025/10/05-00:01:17.461 17de Reusing old log /home/archboom/.config/whatsdesk/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000358.log 
+2025/10/05-00:01:19.029 17de Level-0 table #367: started
+2025/10/05-00:01:19.036 17de Level-0 table #367: 741717 bytes OK
+2025/10/05-00:01:19.037 17de Delete type=0 #358
+2025/10/05-00:01:19.037 17de Manual compaction at level-0 from '\x00?\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00@\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/10/05-00:01:20.476 17df Compacting 1@1 + 5@2 files
+2025/10/05-00:01:20.513 17df Generated table #368@1: 53944 keys, 2229168 bytes
+2025/10/05-00:01:20.525 17df Generated table #369@1: 2293 keys, 2148846 bytes
+2025/10/05-00:01:20.546 17df Generated table #370@1: 14068 keys, 2192873 bytes
+2025/10/05-00:01:20.571 17df Generated table #371@1: 32103 keys, 2195212 bytes
+2025/10/05-00:01:20.588 17df Generated table #372@1: 39827 keys, 868046 bytes
+2025/10/05-00:01:20.588 17df Compacted 1@1 + 5@2 files => 9634145 bytes
+2025/10/05-00:01:20.589 17df compacted to: files[ 0 0 5 0 0 0 0 ]
