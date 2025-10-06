@@ -1,15 +1,15 @@
-2025/10/05-00:01:17.440 17de Reusing MANIFEST /home/archboom/.config/whatsdesk/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/10/05-00:01:17.440 17de Recovering log #358
-2025/10/05-00:01:17.461 17de Reusing old log /home/archboom/.config/whatsdesk/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000358.log 
-2025/10/05-00:01:19.029 17de Level-0 table #367: started
-2025/10/05-00:01:19.036 17de Level-0 table #367: 741717 bytes OK
-2025/10/05-00:01:19.037 17de Delete type=0 #358
-2025/10/05-00:01:19.037 17de Manual compaction at level-0 from '\x00?\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00@\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/10/05-00:01:20.476 17df Compacting 1@1 + 5@2 files
-2025/10/05-00:01:20.513 17df Generated table #368@1: 53944 keys, 2229168 bytes
-2025/10/05-00:01:20.525 17df Generated table #369@1: 2293 keys, 2148846 bytes
-2025/10/05-00:01:20.546 17df Generated table #370@1: 14068 keys, 2192873 bytes
-2025/10/05-00:01:20.571 17df Generated table #371@1: 32103 keys, 2195212 bytes
-2025/10/05-00:01:20.588 17df Generated table #372@1: 39827 keys, 868046 bytes
-2025/10/05-00:01:20.588 17df Compacted 1@1 + 5@2 files => 9634145 bytes
-2025/10/05-00:01:20.589 17df compacted to: files[ 0 0 5 0 0 0 0 ]
+2025/10/06-15:54:33.624 33e4dc Reusing MANIFEST /home/archboom/.config/whatsdesk/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/10/06-15:54:33.624 33e4dc Recovering log #381
+2025/10/06-15:54:33.649 33e4dc Reusing old log /home/archboom/.config/whatsdesk/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000381.log 
+2025/10/06-15:54:35.413 33e4dc Level-0 table #390: started
+2025/10/06-15:54:35.422 33e4dc Level-0 table #390: 474736 bytes OK
+2025/10/06-15:54:35.423 33e4dc Delete type=0 #381
+2025/10/06-15:54:35.423 33e4dc Manual compaction at level-0 from '\x00A\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00B\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/10/06-15:54:37.381 33e3e2 Compacting 1@1 + 5@2 files
+2025/10/06-15:54:37.442 33e3e2 Generated table #391@1: 58934 keys, 2234860 bytes
+2025/10/06-15:54:37.458 33e3e2 Generated table #392@1: 2433 keys, 2150462 bytes
+2025/10/06-15:54:37.489 33e3e2 Generated table #393@1: 12602 keys, 2185971 bytes
+2025/10/06-15:54:37.529 33e3e2 Generated table #394@1: 26272 keys, 2194639 bytes
+2025/10/06-15:54:37.561 33e3e2 Generated table #395@1: 47756 keys, 1032673 bytes
+2025/10/06-15:54:37.561 33e3e2 Compacted 1@1 + 5@2 files => 9798605 bytes
+2025/10/06-15:54:37.562 33e3e2 compacted to: files[ 0 0 5 0 0 0 0 ]

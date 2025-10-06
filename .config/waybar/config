@@ -49,7 +49,7 @@
 	//"custom/separator#line",
         "custom/bracket-r",
 	"network",
-	//"custom/separator#line",
+  "bluetooth",
 	"battery",
         "custom/bracket-l",
   "custom/power",
