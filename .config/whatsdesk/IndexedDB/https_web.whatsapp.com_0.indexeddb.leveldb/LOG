@@ -1,21 +1,21 @@
-2025/10/07-18:46:48.117 27cee2 Reusing MANIFEST /home/archboom/.config/whatsdesk/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2025/10/07-18:46:48.117 27cee2 Recovering log #411
-2025/10/07-18:46:48.118 27cee2 Reusing old log /home/archboom/.config/whatsdesk/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000411.log 
-2025/10/07-18:46:50.086 27cfe4 Level-0 table #420: started
-2025/10/07-18:46:50.088 27cfe4 Level-0 table #420: 55703 bytes OK
-2025/10/07-18:46:50.089 27cfe4 Delete type=0 #411
-2025/10/07-18:46:50.089 27cfe4 Manual compaction at level-0 from '\x00D\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00E\x00\x00\x00' @ 0 : 0; will stop at (end)
-2025/10/07-18:46:52.123 27cfe4 Compacting 1@1 + 5@2 files
-2025/10/07-18:46:52.186 27cfe4 Generated table #421@1: 66997 keys, 2256863 bytes
-2025/10/07-18:46:52.203 27cfe4 Generated table #422@1: 2639 keys, 2149548 bytes
-2025/10/07-18:46:52.224 27cfe4 Generated table #423@1: 9147 keys, 2167748 bytes
-2025/10/07-18:46:52.265 27cfe4 Generated table #424@1: 24756 keys, 2209650 bytes
-2025/10/07-18:46:52.314 27cfe4 Generated table #425@1: 54356 keys, 1425309 bytes
-2025/10/07-18:46:52.314 27cfe4 Compacted 1@1 + 5@2 files => 10209118 bytes
-2025/10/07-18:46:52.315 27cfe4 compacted to: files[ 0 0 5 0 0 0 0 ]
-2025/10/07-18:46:52.315 27cfe4 Delete type=2 #413
-2025/10/07-18:46:52.315 27cfe4 Delete type=2 #417
-2025/10/07-18:46:52.315 27cfe4 Delete type=2 #414
-2025/10/07-18:46:52.315 27cfe4 Delete type=2 #415
-2025/10/07-18:46:52.315 27cfe4 Delete type=2 #420
-2025/10/07-18:46:52.315 27cfe4 Delete type=2 #416
+2025/10/07-19:45:45.257 2c8505 Reusing MANIFEST /home/archboom/.config/whatsdesk/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/10/07-19:45:45.257 2c8505 Recovering log #419
+2025/10/07-19:45:45.287 2c8505 Reusing old log /home/archboom/.config/whatsdesk/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000419.log 
+2025/10/07-19:45:47.779 2c8505 Level-0 table #428: started
+2025/10/07-19:45:47.787 2c8505 Level-0 table #428: 520196 bytes OK
+2025/10/07-19:45:47.788 2c8505 Delete type=0 #419
+2025/10/07-19:45:47.788 2c8505 Manual compaction at level-0 from '\x00E\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00F\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/10/07-19:45:50.096 2c8504 Compacting 1@1 + 5@2 files
+2025/10/07-19:45:50.189 2c8504 Generated table #429@1: 68387 keys, 2259372 bytes
+2025/10/07-19:45:50.206 2c8504 Generated table #430@1: 2927 keys, 2149906 bytes
+2025/10/07-19:45:50.230 2c8504 Generated table #431@1: 8782 keys, 2165952 bytes
+2025/10/07-19:45:50.278 2c8504 Generated table #432@1: 24879 keys, 2211407 bytes
+2025/10/07-19:45:50.318 2c8504 Generated table #433@1: 55020 keys, 1473508 bytes
+2025/10/07-19:45:50.318 2c8504 Compacted 1@1 + 5@2 files => 10260145 bytes
+2025/10/07-19:45:50.318 2c8504 compacted to: files[ 0 0 5 0 0 0 0 ]
+2025/10/07-19:45:50.319 2c8504 Delete type=2 #421
+2025/10/07-19:45:50.319 2c8504 Delete type=2 #423
+2025/10/07-19:45:50.319 2c8504 Delete type=2 #425
+2025/10/07-19:45:50.319 2c8504 Delete type=2 #428
+2025/10/07-19:45:50.319 2c8504 Delete type=2 #424
+2025/10/07-19:45:50.319 2c8504 Delete type=2 #422
