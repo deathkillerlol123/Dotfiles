@@ -12,6 +12,8 @@ show_age_threshold = 0
 sort=yes
 width = 300
 
+origin = bottom-left
+
 [urgency_low]
 timeout = 10
 background = "#000000"

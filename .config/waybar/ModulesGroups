@@ -22,10 +22,8 @@
 	"orientation": "horizontal",
 	"modules": [
 		"cpu",
-		"power-profiles-daemon",
-		"memory",
 		"temperature",
-		"disk",
+    "memory"
 	]
 },
 "group/power": {

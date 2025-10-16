@@ -24,11 +24,9 @@
 
 "modules-left": [
 	"tray",
-	"custom/bracket-r",
-	"custom/arch",
-	"custom/bracket-l",
+      	//"custom/bracket-r",
+	      //"custom/bracket-l",
 	"hyprland/workspaces#pacman",
-	"",
 	],
 
 "modules-center": [
@@ -39,12 +37,8 @@
 	],
 
 "modules-right": [
-	"custom/bracket-r",
+      	"custom/bracket-r",
 	"group/motherboard",
-  "custom/bracket-l",
-	//"custom/separator#line",
-  "custom/bracket-r",
-	"custom/cycle_wall",
         "custom/bracket-l",
 	//"custom/separator#line",
         "custom/bracket-r",
