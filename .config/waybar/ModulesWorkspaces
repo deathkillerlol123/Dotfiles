@@ -199,16 +199,17 @@
 },
 // NUMBERS and ICONS style with window rewrite 
 "hyprland/workspaces#rw": {
+  "active-only": false,
 	"disable-scroll": true,
-	"all-outputs": true,
+	"all-outputs": false,
 	"warp-on-scroll": false,
-	"sort-by-number": true,
+	"sort-by-number": false,
 	"show-special": false,
 	"on-click": "activate",
 	"on-scroll-up": "hyprctl dispatch workspace e+1",
 	"on-scroll-down": "hyprctl dispatch workspace e-1",
 	"persistent-workspaces": {
-		"1": 5
+		"1": 9
 	  },
 	"format": "{icon} {windows}",
 	"format-window-separator": " ",

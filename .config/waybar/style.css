@@ -56,7 +56,7 @@ tooltip label {
 /*-----modules indv----*/
 #taskbar button,
 #workspaces button {
-  color: @outline;
+  color: @texts;
   box-shadow: none;
   text-shadow: none;
   padding: 0px;
@@ -78,7 +78,7 @@ tooltip label {
 
 #taskbar button.active,
 #workspaces button.active {
-  color: @texts;
+  color: @outline;
   padding-left: 4px;
   padding-right: 4px;
   animation: gradient_f 20s ease-in infinite;
