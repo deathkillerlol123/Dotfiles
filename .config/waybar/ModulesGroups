@@ -19,7 +19,7 @@
 	]
 },
 "group/motherboard": {
-	"orientation": "horizontal",
+	"orientation": "inherit",
 	"modules": [
 		"cpu",
 		"temperature",

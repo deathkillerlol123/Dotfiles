@@ -1,6 +1,0 @@
-2025/10/18-23:50:18.056 22db Reusing MANIFEST /home/archboom/.config/whatsdesk/Local Storage/leveldb/MANIFEST-000001
-2025/10/18-23:50:18.056 22db Recovering log #34
-2025/10/18-23:50:18.057 22db Reusing old log /home/archboom/.config/whatsdesk/Local Storage/leveldb/000034.log 
-2025/10/19-00:20:28.058 36a1 Level-0 table #38: started
-2025/10/19-00:20:28.069 36a1 Level-0 table #38: 16396 bytes OK
-2025/10/19-00:20:28.070 36a1 Delete type=0 #34

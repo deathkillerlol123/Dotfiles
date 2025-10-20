@@ -35,7 +35,17 @@
 	],
 
 "modules-right": [
-	"group/motherboard",
-	]
+  "group/down"
+	],
+
+"group/down":{
+    "orienation": "vertical", 
+    "modules": [
+      "group/motherboard"
+    ]
+  }
+
 }
+
+
 
