@@ -1,4 +1,3 @@
-
 # ~/.bashrc
 #
 
@@ -7,11 +6,14 @@
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
+
+#alias yay='yay "$@" && sudo rm -rf /tmp/*'
+#alias pacman='sudo pacman "$@" && sudo rm -rf /tmp/*'
+
 #alias y ='yazi'
 #PS1="\[\e[97m\][\u \W\[\e[97m\]]\$ \[\e[0m\]"
 
 export EDITIOR=nvim
-
 
 export GTK_IM_MODULE=ibus
 export QT_IM_MODULE=ibus

@@ -15,4 +15,7 @@ eval "$(starship init zsh)"
 alias ls='eza -a --tree -L 1'
 alias y='yazi'
 
+#alias yay='yay "$@" && sudo rm -rf /tmp/*'
+#alias pacman='sudo pacman "$@" && sudo rm -rf /tmp/*'
+
 export PATH=$PATH:/home/archboom/.spicetify

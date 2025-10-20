@@ -1,15 +1,17 @@
 #!/bin/bash
 # Wait for Wayland session
 while [ -z "$WAYLAND_DISPLAY" ]; do
-    sleep 0.5
+  sleep 0.5
 done
 
-# Start swww daemon
-swww init
+swww-daemon &
+sleep 1 # small delay for initialization
 
 # Restore last wallpaper if it exists
-LAST_WALL="$HOME/.config/last_wallpaper.txt"
+LAST_WALL="$HOME/dotfiles/scripts/colorschem/last_wall.txt"
 if [ -f "$LAST_WALL" ]; then
-    swww img "$(cat "$LAST_WALL")"
+  FILE=$(cat "$LAST_WALL")
+  if [ -f "$FILE" ]; then
+    swww img "$FILE"
+  fi
 fi
-
