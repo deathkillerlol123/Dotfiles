@@ -20,11 +20,26 @@
 },
 "group/motherboard": {
 	"orientation": "inherit",
+  "drawer": {
+      "transition-duration": 500,
+      "transition-left-to-right": true
+    },
 	"modules": [
 		"cpu",
 		"temperature",
     "memory"
 	]
+},
+"group/time_music":{
+  "orientation": "inherit",
+  "drawer": {
+      "transition-duration": 500,
+      "transition-left-to-right": true
+    },
+  "modules":[
+    "clock",
+    "mpris"
+  ]
 },
 "group/power": {
 	"modules": [

@@ -23,27 +23,40 @@
 "margin-right": 0,
 
 "modules-left": [
-	"tray",
-  "bluetooth",
-  "network",
-  "battery"
+	"group/up"
 	],
-
 "modules-center": [
-	"clock",
-	"mpris",
+	"group/middle"
 	],
 
 "modules-right": [
   "group/down"
 	],
 
+
+"group/up":{
+    "orientation":"inherit",
+    "modules":[
+      "tray",
+      "network",
+      "battery"
+    ]
+  },
+"group/middle":{
+    "orientation":"inherit",
+    "modules":[
+      "group/time_music"
+    ]
+  },
+
 "group/down":{
-    "orienation": "vertical", 
+    "orientation": "inherit",
     "modules": [
-      "group/motherboard"
+      "group/motherboard",
+      "custom/dot_update"
     ]
   }
+
 
 }
 

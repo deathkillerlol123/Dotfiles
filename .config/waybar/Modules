@@ -230,7 +230,7 @@
 },
 
 "mpris": {
-  "oreientation": "orthogonal",
+  "rotate": 90,
 	"interval": 1,
 	"format": "[<i>{dynamic}</i>]",
 	"format-paused": "[  {status-icons} <i>{title}</i>  ]",
@@ -241,7 +241,7 @@
 	"on-scroll-up": "~/dotfiles/scripts/volume_increase.sh",
 	"on-scroll-down": "~/dotfiles/scripts/volume_decrease.sh",
 	"smooth-scrolling-threshold": 1,
-	"tooltip": true,
+	"tooltip": false,
 	"tooltip-format": "{status_icon} {dynamic}\nLeft Click: previous\nMid Click: Pause\nRight Click: Next",
 	"status-icons": {
 		"paused": "󰏤",
@@ -250,7 +250,7 @@
 	},
 	"dynamic-order": ["title"],
 	"ignored-players": ["zen"],
-	"max-length": 50,
+	"max-length": 20,
 },
 
 "network": {
