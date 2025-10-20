@@ -34,12 +34,11 @@
 	],
 
 
-"group/up":{
+"group/down":{
     "orientation":"inherit",
     "modules":[
       "tray",
-      "network",
-      "battery"
+      "hyprland/workspaces#rw",
     ]
   },
 "group/middle":{
@@ -49,12 +48,12 @@
     ]
   },
 
-"group/down":{
+"group/up":{
     "orientation": "inherit",
     "modules": [
-      "hyprland/workspaces#rw",
+      "custom/dot_update",
+      "network",
       "group/motherboard",
-      "custom/dot_update"
     ]
   }
 
