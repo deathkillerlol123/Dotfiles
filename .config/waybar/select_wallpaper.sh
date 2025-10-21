@@ -10,7 +10,7 @@ if [ -n "$FILE" ]; then
 
   # Set wallpaper
   #swaybg -i "$FILE" -m fill &
-  swww img "$FILE" --transition-type center --transition-step 90
+  swww img "$FILE" --transition-type outer --transition-step 90
 
   # Generate colors with Walrus
   walrus "$FILE" -t ~/.config/walrus/templates -o ~/.cache/walrus

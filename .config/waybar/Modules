@@ -356,6 +356,7 @@
 "tray": {
 	"icon-size": 20,
 	"spacing": 4,
+  "expand": false
 },
 
 "wireplumber": {
