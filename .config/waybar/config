@@ -43,8 +43,9 @@
   },
 "group/middle":{
     "orientation":"inherit",
-    "modules":[
-      "group/time_music"
+    "modules": [
+      "clock",
+      "mpris"
     ]
   },
 

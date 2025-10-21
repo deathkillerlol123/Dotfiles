@@ -232,7 +232,7 @@
 "mpris": {
   "rotate": 0,
 	"interval": 1,
-	"format": "[<i>{dynamic}</i>]",
+	"format": "<i>{dynamic}</i>",
 	"format-paused": "[  {status-icons} <i>{title}</i>  ]",
 	"on-click-middle": "playerctl play-pause",
 	"on-click": "playerctl previous",
