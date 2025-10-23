@@ -19,3 +19,6 @@ alias y='yazi'
 #alias pacman='sudo pacman "$@" && sudo rm -rf /tmp/*'
 
 export PATH=$PATH:/home/archboom/.spicetify
+
+# Created by `pipx` on 2025-10-23 22:19:57
+export PATH="$PATH:/home/archboom/.local/bin"
