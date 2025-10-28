@@ -201,8 +201,8 @@
 	"tooltip-format-deactivated": "Idle_inhibitor not active",
 	"format": "{icon}",
 	"format-icons": {
-		"activated": " ",
-		"deactivated": " ",
+		"activated": "  ",
+		"deactivated": "  ",
 	}
 },
 
@@ -230,7 +230,7 @@
 },
 
 "mpris": {
-  "rotate": 0,
+  "rotate": 90,
 	"interval": 1,
 	"format": "<i>{dynamic}</i>",
 	"format-paused": "[  {status-icons} <i>{title}</i>  ]",
@@ -250,7 +250,7 @@
 	},
 	"dynamic-order": ["title"],
 	"ignored-players": ["zen"],
-	"max-length": 20,
+	"max-length": 50,
 },
 
 "network": {
@@ -354,8 +354,8 @@
 },
 
 "tray": {
-	"icon-size": 20,
-	"spacing": 4,
+	"icon-size": 15,
+	"spacing": 1,
   "expand": false
 },
 

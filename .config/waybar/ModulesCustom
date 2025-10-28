@@ -2,7 +2,7 @@
 
 {
 "custom/dot_update": {
-	"format": " 󰁈 ",
+	"format": "󰁈",
 	"on-click": "$HOME/dotfiles/scripts/git_updater.sh",
 },
 
@@ -134,5 +134,13 @@
 ██║  ██║██║  ██║╚██████╗██║  ██║    ██████╔╝   ██║   ╚███╔███╔╝
 ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝    ╚═════╝    ╚═╝    ╚══╝╚══╝ 
                                                               "
-},                                                            
+},
+"custom/weather": {
+    "format": "{}",
+    "tooltip": true,
+    "interval": 3600,
+    "exec": "wttrbar",
+    "return-type": "json"
+},
+
 }

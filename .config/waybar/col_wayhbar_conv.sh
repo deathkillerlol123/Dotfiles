@@ -14,4 +14,7 @@ grep -oE -- '--[a-zA-Z0-9_-]+:[[:space:]]*#[0-9A-Fa-f]{3,6}' "$input" |
 
 mv colors2.conf ~/dotfiles/.config/kitty/
 
-killall -SIGUSR2 waybar
+#killall -SIGUSR2 waybar
+
+pkill waybar
+"$HOME/dotfiles/scripts/waybar.sh"

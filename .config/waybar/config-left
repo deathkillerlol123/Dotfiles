@@ -37,15 +37,15 @@
 "group/down":{
     "orientation":"inherit",
     "modules":[
-      "tray",
-      "hyprland/workspaces#rw",
+      "custom/weather",
+      "tray"
     ]
   },
 "group/middle":{
     "orientation":"inherit",
     "modules": [
-      "clock",
-      "mpris"
+      "mpris",
+      "custom/dot_update"
     ]
   },
 
@@ -54,7 +54,7 @@
     "modules": [
       "custom/dot_update",
       "network",
-      "group/motherboard",
+      "idle_inhibitor"
     ]
   }
 
