@@ -15,7 +15,7 @@
 "passthrough": false,
 "position": "right",
 "spacing": -1,
-"fixed-center": false,
+"fixed-center": true,
 "ipc": true,
 "margin-top": 0,
 "margin-bottom": 0,
