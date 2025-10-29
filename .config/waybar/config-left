@@ -53,7 +53,9 @@
     "orientation": "inherit",
     "modules": [
      "custom/dot_update",
-      "group/other",
+     "group/other",
+     "group/motherboard"
+
 
     ]
   }

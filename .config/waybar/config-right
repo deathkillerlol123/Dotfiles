@@ -50,7 +50,6 @@
 "group/up":{
     "orientation": "inherit",
     "modules": [
-      "group/motherboard",
     ]
   }
 
