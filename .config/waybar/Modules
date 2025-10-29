@@ -91,6 +91,7 @@
 },
 
 "clock": {
+  "rotate": 0,
 	"interval": 1,
     //"format": "{:%I:%M %p}", // AM PM format
     "format": "{:%H:%M:%S}",// 24H

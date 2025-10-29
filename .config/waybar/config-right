@@ -44,7 +44,6 @@
 "group/middle":{
     "orientation":"inherit",
     "modules": [
-      "clock",
     ]
   },
 

@@ -13,7 +13,7 @@
 //"mode": "dock",
 "exclusive": true,
 "passthrough": false,
-"position": "left",
+"position": "bottom",
 "spacing": 0,
 "fixed-center": true,
 "ipc": true,
@@ -37,7 +37,7 @@
 "group/down":{
     "orientation":"inherit",
     "modules":[
-      "custom/weather",
+      "clock",
       "tray"
     ]
   },
@@ -45,16 +45,16 @@
     "orientation":"inherit",
     "modules": [
       "mpris",
-      "custom/dot_update"
+      "custom/weather"
     ]
   },
 
 "group/up":{
     "orientation": "inherit",
     "modules": [
-      "custom/dot_update",
-      "network",
-      "idle_inhibitor"
+     "custom/dot_update",
+      "group/other",
+
     ]
   }
 

@@ -22,13 +22,24 @@
 	"orientation": "inherit",
   "drawer": {
       "transition-duration": 500,
-      "transition-left-to-right": false
+      "transition-left-to-right": false,
     },
 	"modules": [
 		"cpu",
 		"temperature",
     "memory"
 	]
+},
+"group/other": {
+  "orientation": "inherit",
+  "drawer": {
+      "transition-durationr" : 500,
+      "transition-left-to-right": false
+    },
+  "modules": [
+    "network",
+    "idle_inhibitor"
+  ]
 },
 "group/time_music":{
   "orientation": "inherit",
