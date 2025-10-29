@@ -357,7 +357,8 @@
 "tray": {
 	"icon-size": 15,
 	"spacing": 1,
-  "expand": false
+  "expand": false,
+  "show-passive-items": false
 },
 
 "wireplumber": {
