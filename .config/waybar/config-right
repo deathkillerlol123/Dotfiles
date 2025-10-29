@@ -37,8 +37,6 @@
 "group/down":{
     "orientation":"inherit",
     "modules":[
-      "hyprland/workspaces#rw"
-
     ]
   },
 "group/middle":{
